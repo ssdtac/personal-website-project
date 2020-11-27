@@ -1,0 +1,128 @@
+/*mobile goes up here*/
+
+@media screen and (max-width: 768px) {
+    #name-text {
+        font-size: 15px;
+    }
+    #navbar {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .nav-item {
+        font-size: 11px;
+    }
+    #portfolio {
+        font-size: 10px;
+    }
+    .nav {
+        display: inline-flex;
+        flex-direction: column;
+    }
+    .social-link-img {
+        max-width: 40px;
+        height: auto;
+        padding: 0px;
+    }
+    .content {
+        font-size: 30px;
+    }
+    .social-link {
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .social-link-img {
+        max-width: 35px;
+        padding: 0px;
+    }
+    .content {
+        font-size: 25px;
+    }
+}
+
+
+/*desktop down here*/
+
+@media screen and (min-width: 768px) {
+    #name-text {
+        font-size: 30px;
+    }
+    .social-link-img {
+        max-width: 50px;
+        height: auto;
+        padding: 5px;
+    }
+    .content {
+        font-size: 40px;
+    }
+}
+
+
+/* this is all stuff that needs to happen regardless*/
+
+.page {
+    background: transparent;
+    color: white;
+}
+
+html {
+    color: white;
+    background-image: linear-gradient(to bottom, #1900fc4b, #1900fc4b), url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right;
+}
+
+body {
+    background: transparent !important;
+}
+
+.white-text {
+    color: white !important;
+}
+
+#navbar {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    padding-bottom: 5px !important;
+    background: transparent !important;
+}
+
+#name-text {
+    font-family: 'Roboto', sans-serif;
+}
+
+.top-link {
+    color: snow;
+    transition: 0.3s;
+}
+
+.top-link:hover {
+    color: #57ccf0;
+}
+
+.font-25 {
+    font-size: 25px !important;
+}
+
+.social-links {
+    list-style-type: none;
+}
+
+.social-link {
+    padding: 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    align-self: left;
+}
+
+.content {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    padding: 15%;
+}
